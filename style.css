@@ -3,9 +3,9 @@
   margin-left: 12px;
   margin-right: 12px;
   width: 98%;
-  height: 2400px;
+  height: 1000px;
   background-image: linear-gradient(#f1ecfc, #ecfbfc);
-  z-index: -1000;
+  z-index: -900;
   position: absolute;
 }
 
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   /*background-color: red;*/
-  width: 20vw;
+  width: 15vw;
   height: 100%;
   text-align: right;
   padding: 16px;
@@ -24,8 +24,8 @@
 
 .nav_option {
   list-style: none;
-  margin-top: 16px;
-  font-size: 32px;
+  margin-top: 40px;
+  font-size: 40px;
   font-family: "Luminari", fantasy, serif;
 }
 
@@ -50,7 +50,8 @@
   justify-content: center;
 }
 
-#content {
+.content {
+  position: relative;
 }
 
 .header_text {
@@ -76,22 +77,25 @@
   position: absolute;
   margin-left: 24vw;
 
-  margin-top: 60vh;
+  margin-top: 70vh;
 }
 
 .project {
   width: 66vw;
   height: 200px;
   background-color: rgba(156, 120, 255, 0.03);
-  margin: 16px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .project_text {
   display: flex;
   flex-direction: column;
-  margin: 24px;
+  margin: 30px;
+}
+.container {
+  position: relative;
 }
