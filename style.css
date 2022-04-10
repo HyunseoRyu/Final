@@ -64,7 +64,7 @@
 
 .header_image {
   background-image: url(/images/elizabeth-portrait.jpeg);
-  background-color: #fffff;
+  background-color: ##ffefd5;
   background-position: 50%;
   background-size: cover;
   border-radius: 8px;
@@ -83,11 +83,11 @@
   width: 66vw;
   height: 200px;
   background-color: rgba(156, 120, 255, 0.03);
-  margin: 32px;
+  margin: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .project_text {
